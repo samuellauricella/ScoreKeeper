@@ -1,0 +1,38 @@
+$green: lightgreen;
+$green-alt: darken($green, 30%);
+$lightyellow: lightyellow;
+$lightyellow-alt: darken($lightyellow, 30%);
+$lightcoral:lightcoral;
+$lightcoral-alt: darken($lightcoral,30%);
+.item {
+  background: white;
+  border: 1px solid #e8e8e8;
+  margin-bottom:1.3rem ;
+  padding: 1.3rem;
+
+}
+
+
+.item__message {
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+
+}
+
+.item--position-1{
+  background: lightgreen;
+  border-color: $green-alt;
+
+}
+
+.item--position-2{
+  background: lightyellow;
+  border-color: $lightyellow-alt;
+}
+
+.item--position-3{
+  background: lightcoral;
+  border-color: $lightcoral-alt;
+}
